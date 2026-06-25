@@ -3,6 +3,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
 import { About } from "@/components/portfolio/About";
+import { DigitalCard } from "@/components/portfolio/DigitalCard";
 import { Portfolio } from "@/components/portfolio/Portfolio";
 import { Experience } from "@/components/portfolio/Experience";
 import { Achievements } from "@/components/portfolio/Achievements";
@@ -117,6 +118,8 @@ function Index() {
         <Hero />
         <SectionDivider symbol="< hello world />" />
         <About />
+        <SectionDivider symbol="[ digital id ]" />
+        <DigitalCard />
         <SectionDivider symbol="[ 01100101 ]" />
         <Portfolio />
         <SectionDivider symbol="f(x) = y" />
