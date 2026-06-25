@@ -118,8 +118,6 @@ function Index() {
         <Hero />
         <SectionDivider symbol="< hello world />" />
         <About />
-        <SectionDivider symbol="[ digital id ]" />
-        <DigitalCard />
         <SectionDivider symbol="[ 01100101 ]" />
         <Portfolio />
         <SectionDivider symbol="f(x) = y" />
@@ -128,6 +126,8 @@ function Index() {
         <Achievements />
         <SectionDivider symbol="∑(xi - x̄)²" />
         <Services />
+        <SectionDivider symbol="[ digital id ]" />
+        <DigitalCard />
         <SectionDivider symbol="1 + 1 = 10" />
         <Contact />
       </main>
