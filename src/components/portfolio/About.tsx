@@ -52,7 +52,7 @@ export function About() {
                   <Sparkles size={16} className="text-primary" /> Beyond Engineering
                 </h4>
                 <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                  Outside of research and coding, I am passionate about writing. I used to publish articles in the UAE-based <span className="font-semibold text-foreground">Friday Magazine</span>, and I am currently co-authoring a book. I also find creative balance in cooking and reading.
+                  Outside of research and coding, I am passionate about writing. I used to publish articles in the UAE-based <span className="font-semibold text-foreground">Friday Magazine</span>, and I am currently authoring a book. I also find creative balance in cooking and reading.
                 </p>
               </div>
             </div>

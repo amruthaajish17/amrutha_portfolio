@@ -13,7 +13,7 @@ A premium, interactive personal portfolio website showcasing professional milest
   - 📐 Minor in **Computational Mathematics**
   - ⚡ **GATE 2026 Qualified** (Computer Science & IT)
 - 🌟 **Leadership**: Google GSA (Google Student Ambassador)
-- 📝 **Creative Endeavors**: Co-authoring a book, writer for the UAE-based *Friday Magazine*, avid reader, and culinary enthusiast.
+- 📝 **Creative Endeavors**: Authoring a book, writer for the UAE-based *Friday Magazine*, avid reader, and culinary enthusiast.
 
 ---
 
@@ -35,20 +35,18 @@ A premium, interactive personal portfolio website showcasing professional milest
 
 ## 📁 Featured Projects
 
-### 🧠 [Micro-mHC-Transformer](https://github.com/amruthaajish17/Micro-mHC-Transformer)
-*Deep Learning / AI Research*
-- A from-scratch PyTorch implementation of Manifold-Constrained Hyper-Connections (mHC) to demonstrate structural stability in multi-stream Transformers.
-- Utilizes the Sinkhorn-Knopp algorithm to project connection matrices onto the Birkhoff polytope (enforcing double stochasticity), preventing signal and gradient explosions across deep layers.
+### ♻️ [EcoLogical](https://github.com/amruthaajish17)
+*Sustainability / Web*
+- Built a platform calculating real-time CO2 emissions using standardized factors, featuring a gamified eco-action tracking module and carbon credit marketplace.
 
-### 📷 [RetroScan AI](https://github.com/amruthaajish17/RetroScan_AI)
-*Computer Vision / PWA*
-- AI-powered highway sign retroreflectivity scanner built for the NHAI 6th Innovation Hackathon.
-- Employs MobileNetV3-Small via TensorFlow.js for on-device, offline sign classification, day/night/wet condition checks, and automated IRC 67:2012 / IRC 35:2015 compliance audits.
+### 📋 [Digital Leave & Food Management](https://github.com/amruthaajish17)
+*Web Portal*
+- Developed a full-stack portal with a demand-forecasting 'Food Opt-In/Out' feature that significantly minimized administrative overhead and food wastage.
 
-### 🛡️ [Verity (The Truth)](https://github.com/amruthaajish17)
-*AI Security / Sandbox Gateway*
-- Architected a sandboxed AI gateway utilizing Microsoft Presidio and local LLMs for policy-based logic and regex-driven PII redaction.
-- Conducted exploratory data analysis (EDA) to model sensitive data leakage probabilities.
+### 📊 [UMAC — Unified Military Analytics](https://github.com/amruthaajish17)
+*Full-stack Data Pipeline / Dashboard*
+- Scraped, cleaned, and compiled live defense data for 140+ countries.
+- Designed interactive Power BI dashboards for country-level military capability comparison.
 
 ### 📷 [RakshakCV](https://github.com/amruthaajish17)
 *Computer Vision / YOLO Nano*
@@ -56,15 +54,25 @@ A premium, interactive personal portfolio website showcasing professional milest
 - Curated training data targeting edge cases like turbans, abayas, and masks, improving model inclusivity.
 - Received Special Recognition from the IEEE Student Branch.
 
-### 📊 [UMAC — Unified Military Analytics](https://github.com/amruthaajish17)
-*Full-stack Data Pipeline / Dashboard*
-- Scraped, cleaned, and compiled live defense data for 140+ countries.
-- Designed interactive Power BI dashboards for country-level military capability comparison.
-
 ### ♻️ [E-Waste Data Security Simulation](https://github.com/amruthaajish17)
 *Simulation Software / Security*
 - Built a web simulator modeling operational security checks and cryptographic integrity checks for data destruction in e-waste recycling.
 - Named a **UST SIGHT 2.0 National Finalist**.
+
+### 🧠 [Micro-mHC-Transformer](https://github.com/amruthaajish17/Micro-mHC-Transformer)
+*Deep Learning / AI Research*
+- A from-scratch PyTorch implementation of Manifold-Constrained Hyper-Connections (mHC) to demonstrate structural stability in multi-stream Transformers.
+- Utilizes the Sinkhorn-Knopp algorithm to project connection matrices onto the Birkhoff polytope (enforcing double stochasticity), preventing signal and gradient explosions across deep layers.
+
+### 🛡️ [Verity (The Truth)](https://github.com/amruthaajish17)
+*AI Security / Sandbox Gateway*
+- **OSC Hackathon 3rd Place Winner**. Architected a sandboxed AI gateway utilizing Microsoft Presidio and local LLMs for policy-based logic and regex-driven PII redaction.
+- Conducted exploratory data analysis (EDA) to model sensitive data leakage probabilities.
+
+### 📷 [RetroScan AI](https://github.com/amruthaajish17/RetroScan_AI)
+*Computer Vision / PWA*
+- AI-powered highway sign retroreflectivity scanner built for the NHAI 6th Innovation Hackathon.
+- Employs MobileNetV3-Small via TensorFlow.js for on-device, offline sign classification, day/night/wet condition checks, and automated IRC 67:2012 / IRC 35:2015 compliance audits.
 
 ---
 
