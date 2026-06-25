@@ -1,96 +1,56 @@
-# Amrutha Ajish Achuthan — Personal Portfolio
+# Amrutha Ajish Achuthan — Portfolio Website
 
-A premium, interactive personal portfolio website showcasing professional milestones, data-driven projects, academic achievements, and engineering capabilities.
+A modern, high-performance personal portfolio website built with **TanStack Start (React SSR)**, **Tailwind CSS**, and **Vite**. 
 
----
-
-## 👤 About the Developer
-
-**Amrutha Ajish Achuthan** is a Computer Science Engineer working at the intersection of **Data Science, AI Security, and Decision Science**. She bridges technical engineering and strategic business logic to turn raw data into decisions.
-
-- 🎓 **Education**: B.Tech in Computer Engineering at **Saintgits College of Engineering (Autonomous)** (Class of 2027)
-  - 🧠 Honors in **Machine Learning**
-  - 📐 Minor in **Computational Mathematics**
-  - ⚡ **GATE 2026 Qualified** (Computer Science & IT)
-- 🌟 **Leadership**: Google GSA (Google Student Ambassador)
-- 📝 **Creative Endeavors**: Authoring a book, writer for the UAE-based *Friday Magazine*, avid reader, and culinary enthusiast.
+This repository houses the source code for my interactive developer portfolio, highlighting core competencies in Data Science, Machine Learning, and Decision Science.
 
 ---
 
-## 🛠️ Skills & Expertise
+## ✨ Features
 
-### Core Focus Areas
-- **Data Science & Visualization**: Designing interactive dashboards and charts that make complex data decision-ready.
-- **Statistical Modeling**: Applying probability theory, high-dimensional analysis, and predictive modeling for business insights.
-- **AI & Security Auditing**: Conducting secure-by-design reviews, PII redaction pipelines, and model vulnerability testing.
-- **Decision Science & Strategy**: Aligning technology metrics with business KPIs and clear communication narratives.
-
-### Technical Stack
-- **Programming Languages**: Python, C, SQL, PL/SQL, HTML/CSS, JavaScript, TypeScript
-- **Frameworks & Libraries**: scikit-learn, PyTorch, OpenCV, Flask, Streamlit, LangChain, NumPy, pandas
-- **Databases**: MySQL, PostgreSQL
-- **Tools & Platforms**: Power BI, Git, GitHub, Google Colab, Notion, Jupyter Notebook, VS Code
+- 🖥️ **Interactive Tools Sandbox**: A custom terminal emulator interface letting visitors inspect mock developer commands and console outputs.
+- 📸 **Polaroid Carousel**: A dynamic slide deck showcasing milestones, certifications, and academic trophies with custom card rotations and hover animations.
+- ⚡ **Performance & SEO**: Pre-rendered using TanStack Start (SSR) for instant page load speeds and search engine readability.
+- 🎨 **Premium Aesthetics**: Curated color palettes, dark mode styling, and smooth responsive layout transitions.
 
 ---
 
-## 📁 Featured Projects
+## 📂 Site Sections
 
-### ♻️ [EcoLogical](https://github.com/amruthaajish17)
-*Sustainability / Web*
-- Built a platform calculating real-time CO2 emissions using standardized factors, featuring a gamified eco-action tracking module and carbon credit marketplace.
-
-### 📋 [Digital Leave & Food Management](https://github.com/amruthaajish17)
-*Web Portal*
-- Developed a full-stack portal with a demand-forecasting 'Food Opt-In/Out' feature that significantly minimized administrative overhead and food wastage.
-
-### 📊 [UMAC — Unified Military Analytics](https://github.com/amruthaajish17)
-*Full-stack Data Pipeline / Dashboard*
-- Scraped, cleaned, and compiled live defense data for 140+ countries.
-- Designed interactive Power BI dashboards for country-level military capability comparison.
-
-### 📷 [RakshakCV](https://github.com/amruthaajish17)
-*Computer Vision / YOLO Nano*
-- Developed a real-time computer vision pipeline utilizing YOLO Nano and YOLOv8 to detect helmet compliance.
-- Curated training data targeting edge cases like turbans, abayas, and masks, improving model inclusivity.
-- Received Special Recognition from the IEEE Student Branch.
-
-### ♻️ [E-Waste Data Security Simulation](https://github.com/amruthaajish17)
-*Simulation Software / Security*
-- Built a web simulator modeling operational security checks and cryptographic integrity checks for data destruction in e-waste recycling.
-- Named a **UST SIGHT 2.0 National Finalist**.
-
-### 🧠 [Micro-mHC-Transformer](https://github.com/amruthaajish17/Micro-mHC-Transformer)
-*Deep Learning / AI Research*
-- A from-scratch PyTorch implementation of Manifold-Constrained Hyper-Connections (mHC) to demonstrate structural stability in multi-stream Transformers.
-- Utilizes the Sinkhorn-Knopp algorithm to project connection matrices onto the Birkhoff polytope (enforcing double stochasticity), preventing signal and gradient explosions across deep layers.
-
-### 🛡️ [Verity (The Truth)](https://github.com/amruthaajish17)
-*AI Security / Sandbox Gateway*
-- **OSC Hackathon 3rd Place Winner**. Architected a sandboxed AI gateway utilizing Microsoft Presidio and local LLMs for policy-based logic and regex-driven PII redaction.
-- Conducted exploratory data analysis (EDA) to model sensitive data leakage probabilities.
-
-### 📷 [RetroScan AI](https://github.com/amruthaajish17/RetroScan_AI)
-*Computer Vision / PWA*
-- AI-powered highway sign retroreflectivity scanner built for the NHAI 6th Innovation Hackathon.
-- Employs MobileNetV3-Small via TensorFlow.js for on-device, offline sign classification, day/night/wet condition checks, and automated IRC 67:2012 / IRC 35:2015 compliance audits.
+- **Home / Hero**: High-level introduction to core focus areas (Data Science, AI Security, Decision Science).
+- **About**: Educational background and strategic interests.
+- **Projects**: Grid display of selected builds (including *EcoLogical*, *Digital Leave & Food*, *UMAC*, *RakshakCV*, *E-Waste*, *Micro-mHC*, *Verity*, and *RetroScan AI*).
+- **Services & Skills**: Highlights of statistical modeling, security auditing, and technical stacks.
+- **Contact**: Inquiries and links to professional platforms.
 
 ---
 
-## 🏆 Key Achievements & Milestones
+## 🛠️ Tech Stack
 
-- 🚀 **McKinsey Forward**: Selected Forward Learner in McKinsey's leadership and business strategy accelerator.
-- 🥇 **Weekly Capture the Flag (CTF)**: 1st Place winner in semester-long cybersecurity hacking contests.
-- 🎯 **Data Visualization Challenge**: 1st Prize Winner in the national challenge hosted by XIM University.
-- 🥇 **Intellecta'23 Hackathon**: 1st Prize Winner with Team "AA Battery" (AI & Cybersecurity theme).
-- 🏆 **Academic Topper**: First Year B.Tech Academic Topper with a CGPA of **9.975/10**.
-- 🌟 **NASA Space Apps Solver**: Recognized as a "Galactic Problem Solver" in the NASA International Space Apps Challenge.
-- 🎓 **Elite Certifications**: Elite + Silver certifications in Deep Learning (81%) and Intro to IoT (83%) from NPTEL.
+- **Core Framework**: [TanStack Start](https://tanstack.com/router/latest/docs/framework/react/start/overview) (React SSR)
+- **Styling**: Tailwind CSS
+- **Build Engine**: Vite
+- **Icons**: Lucide React
 
 ---
 
-## 💻 Portfolio Application Features
+## 🚀 Getting Started
 
-The companion portfolio application is developed using modern web standards to showcase these highlights interactively:
-- **Interactive Tools Sandbox**: A custom terminal emulator interface letting visitors inspect mock developer commands and console outputs.
-- **Polaroid Shelf**: An elegant carousel displaying certifications, quiz wins, and trophies with realistic polaroid styling and hover animations.
-- **Modern Architecture**: Built with TanStack Start (React SSR), Tailwind CSS, and Lucide Icons for high-performance responsive browsing.
+To run this portfolio website locally:
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Run local development server**:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:3000` in your browser.
+
+3. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
