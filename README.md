@@ -1,106 +1,78 @@
-# Personal Portfolio - Amrutha Ajish Achuthan
+# Amrutha Ajish Achuthan — Personal Portfolio
 
-A modern, high-performance personal portfolio website built using **TanStack Start (React SSR)**, **Tailwind CSS**, and **Vite / Nitro**. This portfolio highlights professional experience, technical skills, services, projects, and key achievements.
-
----
-
-## 🚀 Features
-
-- **Server-Side Rendering (SSR)**: Instant initial load times and robust SEO out-of-the-box.
-- **Modern Design & Layout**: Clean typography, elegant dark aesthetic, smooth responsive layouts, and interactive micro-animations.
-- **Structured Sections**:
-  - **Hero / Home**: A compelling introduction and quick summary.
-  - **About**: Background, core values, and focus areas.
-  - **Experience**: Timeline detailing professional career milestones.
-  - **Services**: Specialized solutions provided (e.g. Frontend Development, UX/UI, Consulting).
-  - **Portfolio**: Interactive grid showcasing selected work.
-  - **Achievements**: Visual display of certifications, awards, and competitions.
-  - **Contact**: Structured communication options.
+A premium, interactive personal portfolio website showcasing professional milestones, data-driven projects, academic achievements, and engineering capabilities.
 
 ---
 
-## 🛠️ Tech Stack
+## 👤 About the Developer
 
-- **Core Framework**: [TanStack Start](https://tanstack.com/router/latest/docs/framework/react/start/overview) (React SSR)
-- **Bundler & Server Engine**: [Vite](https://vite.dev/) & [Nitro](https://nitro.build/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Config Wrapper**: `@lovable.dev/vite-tanstack-config`
+**Amrutha Ajish Achuthan** is a Computer Science Engineer working at the intersection of **Data Science, AI Security, and Decision Science**. She bridges technical engineering and strategic business logic to turn raw data into decisions.
 
----
-
-## 💻 Getting Started
-
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed (LTS version recommended).
-
-### 1. Install Dependencies
-```bash
-npm install
-```
-
-### 2. Run Local Development Server
-```bash
-npm run dev
-```
-Open your browser and navigate to `http://localhost:3000`.
-
-### 3. Build for Production
-To build the application for production locally:
-```bash
-npm run build
-```
+- 🎓 **Education**: B.Tech in Computer Engineering at **Saintgits College of Engineering (Autonomous)** (Class of 2027)
+  - 🧠 Honors in **Machine Learning**
+  - 📐 Minor in **Computational Mathematics**
+  - ⚡ **GATE 2026 Qualified** (Computer Science & IT)
+- 🌟 **Leadership**: Google GSA (Google Student Ambassador)
+- 📝 **Creative Endeavors**: Co-authoring a book, writer for the UAE-based *Friday Magazine*, avid reader, and culinary enthusiast.
 
 ---
 
-## 🌐 Deployment Guide
+## 🛠️ Skills & Expertise
 
-This project is configured out-of-the-box for **Cloudflare Pages** using the modern unified Assets/Workers engine via Nitro.
+### Core Focus Areas
+- **Data Science & Visualization**: Designing interactive dashboards and charts that make complex data decision-ready.
+- **Statistical Modeling**: Applying probability theory, high-dimensional analysis, and predictive modeling for business insights.
+- **AI & Security Auditing**: Conducting secure-by-design reviews, PII redaction pipelines, and model vulnerability testing.
+- **Decision Science & Strategy**: Aligning technology metrics with business KPIs and clear communication narratives.
 
-### Option A: Automatic Git Deploy (Recommended)
-1. Push your project to a **GitHub** repository.
-2. Log in to your [Cloudflare Dashboard](https://dash.cloudflare.com).
-3. Navigate to **Workers & Pages** -> **Create** -> **Pages** -> **Connect to Git**.
-4. Select your repository.
-5. In the Build settings:
-   - **Framework Preset**: `None`
-   - **Build Command**: `npm run build`
-   - **Build Output Directory**: `.output/public`
-6. Click **Save and Deploy**. Cloudflare will rebuild and deploy your site on every push.
-
-### Option B: Manual CLI Deploy (Instant)
-To deploy directly from your local machine:
-1. Log in to Wrangler:
-   ```bash
-   npx wrangler login
-   ```
-2. Build the project:
-   ```bash
-   npm run build
-   ```
-3. Deploy the prebuilt build using the generated wrangler config:
-   ```bash
-   npx wrangler deploy --config .output/server/wrangler.json
-   ```
+### Technical Stack
+- **Programming Languages**: Python, C, SQL, PL/SQL, HTML/CSS, JavaScript, TypeScript
+- **Frameworks & Libraries**: scikit-learn, PyTorch, OpenCV, Flask, Streamlit, LangChain, NumPy, pandas
+- **Databases**: MySQL, PostgreSQL
+- **Tools & Platforms**: Power BI, Git, GitHub, Google Colab, Notion, Jupyter Notebook, VS Code
 
 ---
 
-## 📁 Project Structure
+## 📁 Featured Projects
 
-```
-├── .lovable/              # Lovable template metadata
-├── public/                # Static public assets (images, icons)
-├── src/
-│   ├── assets/            # Embedded visual assets
-│   ├── components/
-│   │   ├── portfolio/     # Section components (Hero, Experience, Portfolio, etc.)
-│   │   └── ui/            # UI components (buttons, cards, banners)
-│   ├── hooks/             # Custom React hooks
-│   ├── lib/               # Utility functions and error capturing
-│   ├── routes/            # TanStack Router page routes
-│   ├── styles.css         # Styling rules & Tailwind layers
-│   ├── server.ts          # SSR server entry point
-│   └── start.ts           # Client side hydration entry point
-├── package.json           # Scripts and dependencies
-└── vite.config.ts         # Vite build configuration
-```
+### 🛡️ [Verity (The Truth)](https://github.com/amruthaajish17)
+*AI Security / Sandbox Gateway*
+- Architected a sandboxed AI gateway utilizing Microsoft Presidio and local LLMs for policy-based logic and regex-driven PII redaction.
+- Conducted exploratory data analysis (EDA) to model sensitive data leakage probabilities.
+
+### 📷 [RakshakCV](https://github.com/amruthaajish17)
+*Computer Vision / YOLO Nano*
+- Developed a real-time computer vision pipeline utilizing YOLO Nano and YOLOv8 to detect helmet compliance.
+- Curated training data targeting edge cases like turbans, abayas, and masks, improving model inclusivity.
+- Received Special Recognition from the IEEE Student Branch.
+
+### 📊 [UMAC — Unified Military Analytics](https://github.com/amruthaajish17)
+*Full-stack Data Pipeline / Dashboard*
+- Scraped, cleaned, and compiled live defense data for 140+ countries.
+- Designed interactive Power BI dashboards for country-level military capability comparison.
+
+### ♻️ [E-Waste Data Security Simulation](https://github.com/amruthaajish17)
+*Simulation Software / Security*
+- Built a web simulator modeling operational security checks and cryptographic integrity checks for data destruction in e-waste recycling.
+- Named a **UST SIGHT 2.0 National Finalist**.
+
+---
+
+## 🏆 Key Achievements & Milestones
+
+- 🚀 **McKinsey Forward**: Selected Forward Learner in McKinsey's leadership and business strategy accelerator.
+- 🥇 **Weekly Capture the Flag (CTF)**: 1st Place winner in semester-long cybersecurity hacking contests.
+- 🎯 **Data Visualization Challenge**: 1st Prize Winner in the national challenge hosted by XIM University.
+- 🥇 **Intellecta'23 Hackathon**: 1st Prize Winner with Team "AA Battery" (AI & Cybersecurity theme).
+- 🏆 **Academic Topper**: First Year B.Tech Academic Topper with a CGPA of **9.975/10**.
+- 🌟 **NASA Space Apps Solver**: Recognized as a "Galactic Problem Solver" in the NASA International Space Apps Challenge.
+- 🎓 **Elite Certifications**: Elite + Silver certifications in Deep Learning (81%) and Intro to IoT (83%) from NPTEL.
+
+---
+
+## 💻 Portfolio Application Features
+
+The companion portfolio application is developed using modern web standards to showcase these highlights interactively:
+- **Interactive Tools Sandbox**: A custom terminal emulator interface letting visitors inspect mock developer commands and console outputs.
+- **Polaroid Shelf**: An elegant carousel displaying certifications, quiz wins, and trophies with realistic polaroid styling and hover animations.
+- **Modern Architecture**: Built with TanStack Start (React SSR), Tailwind CSS, and Lucide Icons for high-performance responsive browsing.
