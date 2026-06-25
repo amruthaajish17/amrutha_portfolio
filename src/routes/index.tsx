@@ -7,7 +7,6 @@ import { Portfolio } from "@/components/portfolio/Portfolio";
 import { Experience } from "@/components/portfolio/Experience";
 import { Achievements } from "@/components/portfolio/Achievements";
 import { Services } from "@/components/portfolio/Services";
-import { Resume } from "@/components/portfolio/Resume";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 
@@ -126,8 +125,6 @@ function Index() {
         <Achievements />
         <SectionDivider symbol="∑(xi - x̄)²" />
         <Services />
-        <SectionDivider symbol="[ curriculum vitae ]" />
-        <Resume />
         <SectionDivider symbol="1 + 1 = 10" />
         <Contact />
       </main>

@@ -1,4 +1,4 @@
-import { ArrowRight, Mail, Sparkles, GraduationCap, MapPin } from "lucide-react";
+import { ArrowRight, Mail, Sparkles, GraduationCap, MapPin, FileText } from "lucide-react";
 import portrait from "@/assets/amrutha-portrait.jpg";
 
 export function Hero() {
@@ -54,6 +54,13 @@ export function Hero() {
               className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
             >
               <Mail size={16} /> Get in Touch
+            </a>
+            <a
+              href="/Amrutha_Ajish_Achuthan_Resume.pdf"
+              download="Amrutha_Ajish_Achuthan_Resume.pdf"
+              className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
+            >
+              <FileText size={16} /> Download CV
             </a>
           </div>
 
