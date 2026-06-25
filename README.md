@@ -35,6 +35,16 @@ A premium, interactive personal portfolio website showcasing professional milest
 
 ## 📁 Featured Projects
 
+### 🧠 [Micro-mHC-Transformer](https://github.com/amruthaajish17/Micro-mHC-Transformer)
+*Deep Learning / AI Research*
+- A from-scratch PyTorch implementation of Manifold-Constrained Hyper-Connections (mHC) to demonstrate structural stability in multi-stream Transformers.
+- Utilizes the Sinkhorn-Knopp algorithm to project connection matrices onto the Birkhoff polytope (enforcing double stochasticity), preventing signal and gradient explosions across deep layers.
+
+### 📷 [RetroScan AI](https://github.com/amruthaajish17/RetroScan_AI)
+*Computer Vision / PWA*
+- AI-powered highway sign retroreflectivity scanner built for the NHAI 6th Innovation Hackathon.
+- Employs MobileNetV3-Small via TensorFlow.js for on-device, offline sign classification, day/night/wet condition checks, and automated IRC 67:2012 / IRC 35:2015 compliance audits.
+
 ### 🛡️ [Verity (The Truth)](https://github.com/amruthaajish17)
 *AI Security / Sandbox Gateway*
 - Architected a sandboxed AI gateway utilizing Microsoft Presidio and local LLMs for policy-based logic and regex-driven PII redaction.

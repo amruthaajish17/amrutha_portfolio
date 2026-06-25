@@ -1,7 +1,23 @@
-import { ShieldCheck, ScanEye, BarChart3, Leaf, Recycle, ClipboardList, Github, ArrowUpRight } from "lucide-react";
+import { ShieldCheck, ScanEye, BarChart3, Leaf, Recycle, ClipboardList, Github, ArrowUpRight, Cpu, Eye } from "lucide-react";
 import { SectionLabel } from "./About";
 
 const projects = [
+  {
+    icon: Cpu,
+    name: "Micro-mHC-Transformer",
+    tag: "Deep Learning",
+    desc: "A from-scratch PyTorch implementation of Manifold-Constrained Hyper-Connections (mHC). Uses the Sinkhorn-Knopp algorithm to project connection matrices onto the Birkhoff polytope (double stochasticity), ensuring structural stability and preventing gradient explosions in multi-stream architectures.",
+    stack: ["PyTorch", "Python", "Mathematical Modeling", "Deep Learning"],
+    github: "https://github.com/amruthaajish17/Micro-mHC-Transformer",
+  },
+  {
+    icon: Eye,
+    name: "RetroScan AI",
+    tag: "Computer Vision / PWA",
+    desc: "AI-powered highway sign retroreflectivity scanner built for the NHAI 6th Innovation Hackathon. Uses on-device deep learning (MobileNetV3-Small via TensorFlow.js) to classify sign reflectivity, assess conditions, and verify IRC compliance offline.",
+    stack: ["React", "TensorFlow.js", "Tailwind CSS", "Vite PWA", "Python"],
+    github: "https://github.com/amruthaajish17/RetroScan_AI",
+  },
   {
     icon: ShieldCheck,
     name: "Verity (The Truth)",
