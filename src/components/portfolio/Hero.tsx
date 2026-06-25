@@ -60,7 +60,7 @@ export function Hero() {
               download="Amrutha_Ajish_Achuthan_Resume.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
             >
-              <FileText size={16} /> Download CV
+              <FileText size={16} /> Download Resume
             </a>
           </div>
 
