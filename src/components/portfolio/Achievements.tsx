@@ -193,7 +193,7 @@ const achievementsData: Achievement[] = [
     title: "2nd Prize Exponentia Maths",
     desc: "Runner Up in the Exponentia College Mathematics Quiz",
     tag: "Competition",
-    date: "2025",
+    date: "Dec 2023 & 2025",
     icon: Sigma,
     image: "/assets/achievements/maths.png",
     gradient: "linear-gradient(135deg, oklch(0.58 0.12 280), oklch(0.42 0.1 300))", // Violet
