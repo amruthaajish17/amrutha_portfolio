@@ -58,7 +58,7 @@ export function Hero() {
             <a
               href="/Amrutha_Ajish_Achuthan_Resume.pdf"
               download="Amrutha_Ajish_Achuthan_Resume.pdf"
-              className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:scale-105"
             >
               <FileText size={16} /> Download Resume
             </a>

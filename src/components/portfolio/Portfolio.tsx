@@ -1,4 +1,4 @@
-import { ShieldCheck, ScanEye, BarChart3, Leaf, Recycle, ClipboardList, Github, ArrowUpRight, Cpu, Eye } from "lucide-react";
+import { ShieldCheck, ScanEye, BarChart3, Leaf, Recycle, ClipboardList, Github, ArrowUpRight, Cpu, Eye, Network } from "lucide-react";
 import { SectionLabel } from "./About";
 
 const projects = [
@@ -8,7 +8,7 @@ const projects = [
     tag: "Sustainability / Web",
     desc: "Built a platform calculating real-time CO2 emissions using standardized factors, featuring a gamified eco-action tracking module and carbon credit marketplace.",
     stack: ["React", "Django", "PostgreSQL", "REST API"],
-    github: "https://github.com/amruthaajish17",
+    github: "https://github.com/amruthaajish17/Mini-Project-A-Smart-System-for-Household-Carbon-Accountability-and-Sustainability",
   },
   {
     icon: ClipboardList,
@@ -16,7 +16,7 @@ const projects = [
     tag: "Web Portal",
     desc: "Developed a full-stack portal with a demand-forecasting 'Food Opt-In/Out' feature that significantly minimized administrative overhead and food wastage.",
     stack: ["Python", "MySQL", "JavaScript", "HTML/CSS"],
-    github: "https://github.com/amruthaajish17",
+    github: "https://github.com/amruthaajish17/DBMS-TESTING1",
   },
   {
     icon: BarChart3,
@@ -24,7 +24,7 @@ const projects = [
     tag: "Dashboard Design",
     desc: "Engineered a full-stack analytics pipeline to scrape, clean, and extract KPIs from live defense data spanning 140+ countries. Designed interactive Power BI dashboards to enable country-level capability comparison.",
     stack: ["Power BI", "Python", "BeautifulSoup", "Pandas"],
-    github: "https://github.com/amruthaajish17",
+    github: "https://github.com/amruthaajish17/Unified-Military-Analytics-and-Comparison--Group-1",
   },
   {
     icon: ScanEye,
@@ -32,7 +32,7 @@ const projects = [
     tag: "Computer Vision",
     desc: "Developed a real-time computer vision pipeline utilizing YOLO Nano and YOLOv8 to accurately detect helmet compliance. Curated targeted training data to solve edge cases like turbans, abayas, and masks, improving model inclusivity.",
     stack: ["YOLO Nano", "YOLOv8", "OpenCV", "Python"],
-    github: "https://github.com/amruthaajish17",
+    github: "https://github.com/amruthaajish17/RakshakCV",
   },
   {
     icon: Recycle,
@@ -40,7 +40,7 @@ const projects = [
     tag: "Simulation Software",
     desc: "Developed a software simulation website that models operational security checks and automated cryptographic integrity checks for data destruction in e-waste recycling (UST SIGHT 2.0 National Finalist).",
     stack: ["React", "Flask", "Simulation Software"],
-    github: "https://github.com/amruthaajish17",
+    github: "https://github.com/amruthaajish17/E-Waste_Recycler",
   },
   {
     icon: Cpu,
@@ -56,7 +56,7 @@ const projects = [
     tag: "AI Security",
     desc: "OSC Hackathon 3rd Place Winner. Architected a sandboxed AI gateway using Microsoft Presidio and local LLMs for policy-based logic and regex-driven PII redaction, conducting rigorous EDA to model sensitive data leakage probabilities.",
     stack: ["Microsoft Presidio", "Local LLMs", "PII Redaction", "EDA"],
-    github: "https://github.com/amruthaajish17",
+    github: "https://github.com/amruthaajish17/Verity-AI-gateway",
   },
   {
     icon: Eye,
@@ -65,6 +65,14 @@ const projects = [
     desc: "AI-powered highway sign retroreflectivity scanner built for the NHAI 6th Innovation Hackathon. Uses on-device deep learning (MobileNetV3-Small via TensorFlow.js) to classify sign reflectivity, assess conditions, and verify IRC compliance offline.",
     stack: ["React", "TensorFlow.js", "Tailwind CSS", "Vite PWA", "Python"],
     github: "https://github.com/amruthaajish17/RetroScan_AI",
+  },
+  {
+    icon: Network,
+    name: "Insider Threat Detection",
+    tag: "Cybersecurity / ML",
+    desc: "An unsupervised machine learning project developed during my internship at IIIT Kottayam to detect anomalous network patterns using Isolation Forest, DBSCAN, and KMeans clustering.",
+    stack: ["Python", "Isolation Forest", "DBSCAN", "KMeans", "Machine Learning"],
+    github: "https://github.com/amruthaajish17/IIITK_Internship",
   },
 ];
 
