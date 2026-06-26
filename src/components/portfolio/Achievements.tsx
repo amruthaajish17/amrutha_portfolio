@@ -189,17 +189,6 @@ const achievementsData: Achievement[] = [
     rotation: "-rotate-2 hover:rotate-0",
   },
   {
-    id: "maths",
-    title: "2nd Prize Exponentia Maths",
-    desc: "Runner Up in the Exponentia College Mathematics Quiz",
-    tag: "Competition",
-    date: "Dec 2023 & 2025",
-    icon: Sigma,
-    image: "/assets/achievements/maths.png",
-    gradient: "linear-gradient(135deg, oklch(0.58 0.12 280), oklch(0.42 0.1 300))", // Violet
-    rotation: "rotate-1 hover:rotate-0",
-  },
-  {
     id: "nasa_spaceapps",
     title: "NASA Space Apps Solver",
     desc: "Recognized as a 'Galactic Problem Solver' at the 2024 NASA International Space Apps Challenge for efforts to address complex challenges on Earth and in space.",
@@ -253,6 +242,17 @@ const achievementsData: Achievement[] = [
     image: "/assets/achievements/intellecta.png",
     gradient: "linear-gradient(135deg, oklch(0.52 0.22 280), oklch(0.38 0.18 300))", // Royal Violet/Indigo
     rotation: "-rotate-2 hover:rotate-0",
+  },
+  {
+    id: "maths",
+    title: "2nd Prize Exponentia Maths",
+    desc: "Runner Up in the Exponentia College Mathematics Quiz",
+    tag: "Competition",
+    date: "Dec 2023",
+    icon: Sigma,
+    image: "/assets/achievements/maths.png",
+    gradient: "linear-gradient(135deg, oklch(0.58 0.12 280), oklch(0.42 0.1 300))", // Violet
+    rotation: "rotate-1 hover:rotate-0",
   },
 ];
 
